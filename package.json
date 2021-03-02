@@ -1,0 +1,12 @@
+{
+  "name": "vuemastery-graphql-server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "apollo": "node index.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "graphql": "^15.5.0"
+  }
+}
