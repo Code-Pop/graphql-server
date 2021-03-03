@@ -1,11 +1,19 @@
-# VueAndWine workshop GraphQL server
+# vuemastery-graphql-server
 
-This is an Apollo server to use locally while learning the GraphQL + Apollo on the VueAndWine workshop. To start the server, please run
-
-```bash
-npm run apollo
-# OR
-yarn apollo
+## Project setup
+```
+yarn install
 ```
 
-Server will be running on `http://localhost:4000/graphql`
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

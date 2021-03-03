@@ -3,10 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "apollo": "node index.js"
+    "apollo": "vue-cli-service apollo:start"
   },
   "dependencies": {
-    "apollo-server": "^2.21.0",
-    "graphql": "^15.5.0"
+    "core-js": "^3.6.5",
+    "graphql-type-json": "^0.2.1",
+    "lowdb": "^1.0.0",
+    "mkdirp": "^0.5.1",
+    "shortid": "^2.2.8",
+    "vue-apollo": "^3.0.0-beta.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "graphql-tag": "^2.9.0",
+    "vue-cli-plugin-apollo": "~0.22.2",
+    "vue-template-compiler": "^2.6.11"
   }
 }
