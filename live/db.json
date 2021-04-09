@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": "n12clfp3K",
+      "title": "The Guardians",
+      "description": "In the small Florida town of Seabrook, a young lawyer named Keith Russo was shot dead at his desk as he worked late one night. The killer left no clues. There were no witnesses, no one with a motive. But the police soon came to suspect Quincy Miller, a young black man who was once a client of Russo’s...",
+      "rating": 4.5,
+      "author": "John Grisham",
+      "year": 1970
+    },
+    {
+      "id": "TaFvKQmgQ",
+      "title": "The Girl on the Train",
+      "description": "Rachel catches the same commuter train every morning. She knows it will wait at the same signal each time, overlooking a row of back gardens. She’s even started to feel like she knows the people who live in one of the houses. ‘Jess and Jason’, she calls them. Their life – as she sees it – is perfect. If only Rachel could be that happy...",
+      "rating": 4.2,
+      "author": "John Grisham",
+      "year": 2016
+    },
+    {
+      "id": "3y-67bb6Z",
+      "title": "Fahrenheit 451",
+      "description": "The terrifyingly prophetic novel of a post-literate future.",
+      "rating": 4.6,
+      "author": "Ray Bradbury",
+      "year": 1953
+    },
+    {
+      "id": "Rw3sPphui",
+      "title": "To Kill a Mockingbird",
+      "description": "The perennially beloved and treacly account of growing up in a small Southern town during the Depression....To read the novel is, for most, an exercise in wish-fulfillment and self-congratulation, a chance to consider thorny issues of race and prejudice from a safe distance and with the comfortable certainty that the reader would never harbor the racist attitudes espoused by the lowlifes in the novel.",
+      "rating": 4.6,
+      "author": "Harper Lee",
+      "year": 1960
+    },
+    {
+      "id": "b8eWGRQo6",
+      "title": "The Shining",
+      "description": "Jack Torrance’s new job at the Overlook Hotel is the perfect chance for a fresh start. As the off-season caretaker at the atmospheric old hotel, he’ll have plenty of time to spend reconnecting with his family and working on his writing. But as the harsh winter weather sets in, the idyllic location feels ever more remote . . . and more sinister",
+      "rating": 4.7,
+      "author": "Stephen King",
+      "year": 1980
+    },
+    {
+      "id": "HVL-jHzdH",
+      "title": "Foundation",
+      "description": "The first novel in Isaac Asimov’s classic science-fiction masterpiece, the Foundation series",
+      "rating": 4.5,
+      "author": "Isaak Asimov",
+      "year": 1942
+    },
+    {
+      "id": "eqbOaeNk-",
+      "title": "The Catcher in the Rye",
+      "description": "The hero-narrator of The Catcher in the Rye is an ancient child of sixteen, a native New Yorker named Holden Caulfield.Through circumstances that tend to preclude adult, secondhand description, he leaves his prep school in Pennsylvania and goes underground in New York City for three days.",
+      "rating": 4.6,
+      "author": "J. D. Salinger",
+      "year": 1951
+    }
+  ]
+}
