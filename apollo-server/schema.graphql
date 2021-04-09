@@ -16,7 +16,7 @@ input BookInput {
 }
 
 type Query {
-  allBooks: [Book]
+  allBooks(search: String): [Book]
   getBook(id: ID!): Book!
 }
 

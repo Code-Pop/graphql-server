@@ -2,7 +2,15 @@ import shortid from "shortid";
 
 export default {
   Query: {
-    allBooks: (_, __, { db }) => db.get("books").value(),
+    allBooks: (_, { search }, { db }) => {
+      const books = db.get("books").value();
+      if (!search) {
+        return books;
+      }
+      return books.filter((book) =>
+        book.title.toLowerCase().includes(search.toLowerCase())
+      );
+    },
     getBook: (root, { id }, { db }) =>
       db
         .get("books")
