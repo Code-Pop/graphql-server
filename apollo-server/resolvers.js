@@ -25,7 +25,7 @@ export default {
         title: input.title,
         description: input.description || "",
         rating: input.rating || null,
-        year: book.year,
+        year: input.year,
       };
       db.get("books")
         .push(newBook)
@@ -34,7 +34,7 @@ export default {
 
       pubsub.publish("books", { addBook: newBook });
 
-      return newWine;
+      return newBook;
     },
     deleteBook: (_, { id }, { db }) => {
       db.get("books")
@@ -42,6 +42,25 @@ export default {
         .write();
 
       return true;
+    },
+    updateBook: (_, { input }, { db }) => {
+      const { id } = input;
+      let bookToUpdate = db
+        .get("books")
+        .find({ id })
+        .value();
+      db.get("books")
+        .find({ id })
+        .assign({
+          id,
+          title: input.title || bookToUpdate.title,
+          description: input.description || bookToUpdate.description,
+          author: input.author || bookToUpdate.author,
+          year: input.year || bookToUpdate.year,
+          rating: input.rating || bookToUpdate.rating,
+        })
+        .write();
+      return bookToUpdate;
     },
   },
 

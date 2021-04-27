@@ -15,6 +15,15 @@ input BookInput {
   year: Int!
 }
 
+input UpdateBookInput {
+  id: ID!
+  title: String
+  description: String
+  rating: Float
+  author: String
+  year: Int
+}
+
 type Query {
   allBooks(search: String): [Book]
   getBook(id: ID!): Book!
@@ -23,6 +32,7 @@ type Query {
 type Mutation {
   addBook(input: BookInput!): Book!
   deleteBook(id: ID!): Boolean
+  updateBook(input: UpdateBookInput): Book!
 }
 
 type Subscription {
