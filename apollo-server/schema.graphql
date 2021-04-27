@@ -32,7 +32,7 @@ type Query {
 type Mutation {
   addBook(input: BookInput!): Book!
   deleteBook(id: ID!): Boolean
-  updateBook(input: UpdateBookInput): Book!
+  updateBook(input: UpdateBookInput!): Book!
 }
 
 type Subscription {
