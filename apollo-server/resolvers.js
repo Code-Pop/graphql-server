@@ -26,6 +26,7 @@ export default {
         description: input.description || "",
         rating: input.rating || null,
         year: input.year,
+        author: input.author,
       };
       db.get("books")
         .push(newBook)
